@@ -1,0 +1,38 @@
+# Secrets / environment files
+.env
+.env.*
+!.env.example
+
+# n8n sensitive exports
+credentials/
+*credentials*.json
+decrypted*.json
+exported-credentials*.json
+
+# Local databases / runtime data
+.n8n/
+data/
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
